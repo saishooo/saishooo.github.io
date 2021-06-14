@@ -1,0 +1,261 @@
+@charset "UTF-8";
+
+/*共通部分
+---------------------------*/
+html{
+  font-size: 100%;
+}
+body{
+  font-family: "Yu Gothics Medium","游ゴシック Medium",YuGothics,"游ゴシック体","ヒラギノ角ゴ　Pro W3",sans-serif;
+  line-height: 1.7;
+  color: #432;
+}
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+.wrapper{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+/*header
+-------------------------*/
+.logo{
+  width: 150px;
+  margin-top: 14px;
+
+}
+.main-nav{
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+  justify-content: right;
+}
+
+.main-nav li{
+  margin-left: 36px;
+}
+
+.main-nav a{
+  color: #432;
+}
+
+.main-nav a:hover{
+  color: #dddddd;
+}
+
+.page-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/*home
+---------------------*/
+.home-content{
+  text-align: center;
+}
+
+
+
+/*見出し*/
+.page-title{
+  font-size: 5rem;
+  font-weight: normal;
+}
+
+/*ボタン*/
+.button{
+  font-size: 1.375rem;
+  background: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.button:hover{
+  background-color: #432;
+}
+
+.btt{
+  font-size: 1.375rem;
+  color: #dddddd;
+}
+
+.btt:hover{
+  color: #432;
+}
+
+/*大きな背景画像*/
+.big-bg{
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#home{
+  background-image: url(../images/背景.jpg);
+  min-height: 100vh;
+}
+
+#home .page-title{
+  text-transform: none;
+}
+
+
+/*Plofile
+--------------------------*/
+#plofile{
+  background-image: url(../images/背景2.jpg);
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+
+/*フッター
+---------------------------*/
+footer{
+  background: #888888;
+  text-align: center;
+  padding: 26px 0;
+}
+
+footer p{
+  color: #432;
+  font-size: 0.875rem;
+}
+
+
+/*plofile-contents
+----------------------*/
+.plofile-contents{
+  display: flex;
+  justify-content:center;
+}
+
+.plofile-contents p{
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.plofile-pic{
+  margin-left: 50px;
+  height: 250px;
+  width:  250px;
+}
+
+/*letter
+----------------------*/
+.letter{
+  text-align: center;
+
+}
+
+/*Hobby
+------------------------*/
+#hobby{
+  background-image: url(../images/背景3.jpg);
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+.hobby-contents h2,p{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+  margin-right: 60px;
+}
+
+.hb-pic{
+  height: 300px;
+  width: 300px;
+}
+
+.hobby-pic{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/*Contact
+-----------------------*/
+#contact{
+  background-image: url(../images/背景4.jpg);
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+.logo-sns{
+  display: flex;
+  justify-content:space-around;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.logosns{
+  height: 100px;
+  width: 100px;
+}
+
+/*フォーム*/
+form div{
+  margin-bottom: 14px;
+}
+
+label{
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+  border: 1px #000000 solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"]{
+  width: 100%;
+  max-width: 240px;
+}
+
+textarea{
+  width: 100%;
+  max-width: 480px;
+  height: 6rem;
+}
+
+input[type="submit"]{
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
+
+
+/*performance*/
+#performance{
+  background-image: url(../images/背景6.jpg);
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+.pf{
+  font-size: 17px;
+}
+
+
+.space{
+  height: 350px;
+}
