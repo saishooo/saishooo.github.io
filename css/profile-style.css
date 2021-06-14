@@ -114,7 +114,7 @@ img{
 
 /*Plofile
 --------------------------*/
-#plofile{
+#profile{
   background-image: url(../images/背景2.jpg);
   height: 300px;
   margin-bottom: 40px;
@@ -135,18 +135,18 @@ footer p{
 }
 
 
-/*plofile-contents
+/*profile-contents
 ----------------------*/
-.plofile-contents{
+.profile-contents{
   display: flex;
   justify-content:center;
 }
 
-.plofile-contents p{
+.profile-contents p{
   margin-top: 20px;
   margin-left: 60px;
 }
-.plofile-pic{
+.profile-pic{
   margin-left: 50px;
   height: 250px;
   width:  250px;
