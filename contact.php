@@ -62,16 +62,16 @@
 <!-- CSS -->
 <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
 <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
-<link href="css/plofile-style.css" rel="stylesheet">
+<link href="css/profile-style.css" rel="stylesheet">
 </head>
 
 <body>
   <div id="contact" class="big-bg">
   <header class="page-header wrapper">
-    <h1><a href="plofile-index.html"><img class="logo" src="htimages/齋藤将平.pdf"></a></h1>
+    <h1><a href="profile-index.html"><img class="logo" src="htimages/齋藤将平.pdf"></a></h1>
   <nav>
     <ul class="main-nav">
-      <li><a href="plofile.html">Plofile</a></li>
+      <li><a href="profile.html">Profile</a></li>
       <li><a href="performance.html">Performance</a></li>
       <li><a href="hobby.html">Hobby</a></li>
       <li><a href="contact.php">Contact</a></li>
