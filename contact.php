@@ -57,7 +57,7 @@
 <meta charset="utf-8">
 <title>Contact</title>
 <meta name="description" content="齋藤将平の自己紹介">
-<link rel="icon" type="image/png" href="images/marulogo.pdf">
+<link rel="icon" type="images/png" href="images/marulogo.pdf">
 
 <!-- CSS -->
 <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
@@ -95,7 +95,7 @@
     }
   ?>
   <div class="wrapper">
-  <form action="./htcontact.php" method="post">
+  <form action="./contact.php" method="post">
     <label for="name">お名前</label>
     <input type="text"    name="fullname" value="<?php echo $_SESSION['fullname'] ?>">
     <label for="name">email</label>
@@ -106,7 +106,7 @@
   </form>
 <?php } else if( $mode == 'confirm' ){ ?>
   <!-- 確認画面 -->
-  <form action="./htcontact.php" method="post">
+  <form action="./contact.php" method="post">
       名前 :   <?php echo $_SESSION['fullname'] ?><br>
       Eメール : <?php echo $_SESSION['email'] ?><br>
       お問い合わせ内容<br>
@@ -121,9 +121,9 @@
 </div>
 
 <div class="logo-sns">
-<h1><a href="https://www.facebook.com/profile.php?id=100022577121591"><img class="logosns" src="htimages/facebook.logo.png"></a></h1>
-<h1><a href="https://twitter.com/saito3110sho"><img class="logosns" src="htimages/twitter.logo.png"></a></h1>
-<h1><a href="https://www.instagram.com/sai.shooo"><img class="logosns" src="htimages/instagram.logo.png"></a></h1>
+<h1><a href="https://www.facebook.com/profile.php?id=100022577121591"><img class="logosns" src="images/facebook.logo.png"></a></h1>
+<h1><a href="https://twitter.com/saito3110sho"><img class="logosns" src="images/twitter.logo.png"></a></h1>
+<h1><a href="https://www.instagram.com/sai.shooo"><img class="logosns" src="images/instagram.logo.png"></a></h1>
 </div>
 
 <footer>
